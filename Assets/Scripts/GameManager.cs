@@ -345,6 +345,26 @@ public class GameManager : MonoBehaviour
         sendLog.AddLogDownloadEntry("WAKTU: " + waktuKerja);
         sendLog.AddLogDownloadEntry("WAKTU GENERATE: " + gl.elespasedTime + "\n");
 
+        // sendLog.Log("MODE: UJIAN");
+        // sendLog.Log("INDEX: " + gl.indexSoal);
+        // sendLog.Log("SCHEMA: " + gl.schema);
+        // sendLog.Log("Z1: " + gl.z1);
+        // sendLog.Log("Z2: " + gl.z2);
+        // sendLog.Log("Z3: " + gl.z3);
+        // sendLog.Log("Z4: " + gl.z4);
+        // sendLog.Log("SOAL: " + gl.blokSoal);
+        // sendLog.Log("SOLUSI: " + gl.solusiSoal);
+        // sendLog.Log("PREV DIFF: " + gl.prevDifficulty);
+        // sendLog.Log("PREV PERFORMANCE: " + gl.prevPerformance);
+        // sendLog.Log("TARGET DIFF: " + gl.targetDifficulty);
+        // sendLog.Log("CURRENT DIFF: " + gl.difficulty);
+        // sendLog.Log("isFound: " + gl.isFound);
+        // sendLog.Log("STATUS: SKIPPED");
+        // sendLog.Log("TOTAL UNDO: "+restartTimes);
+        // sendLog.Log("TOTAL RESTART: "+undoTimes);
+        // sendLog.Log("WAKTU: " + waktuKerja);
+        // sendLog.Log("WAKTU GENERATE: " + gl.elespasedTime + "\n");
+
         // untuk versi upload
         sendLog.AddLogEntry(";MODE; " + "INDEX; " + "SCHEMA; " + "Z1; " + "Z2; " + "Z3; " + "Z4; " + "SOAL; " + "SOLUSI; " + "PREV DIFF; " + "PREV PERFORMANCE; " + "TARGET DIFF; " + "CURRENT DIFF; " + "isFound; " + "STATUS;" + "TOTAL UNDO; " + "TOTAL RESTART; " + "WAKTU; " + "WAKTU GENERATE; ");
 
@@ -478,6 +498,26 @@ public class GameManager : MonoBehaviour
                     sendLog.AddLogDownloadEntry("TOTAL RESTART: " + undoTimes);
                     sendLog.AddLogDownloadEntry("WAKTU: " + waktuKerja);
                     sendLog.AddLogDownloadEntry("WAKTU GENERATE: " + gl.elespasedTime + "\n");
+
+                    // sendLog.Log("MODE: UJIAN");
+                    // sendLog.Log("INDEX: " + gl.indexSoal);
+                    // sendLog.Log("SCHEMA: " + gl.schema);
+                    // sendLog.Log("Z1: " + gl.z1);
+                    // sendLog.Log("Z2: " + gl.z2);
+                    // sendLog.Log("Z3: " + gl.z3);
+                    // sendLog.Log("Z4: " + gl.z4);
+                    // sendLog.Log("SOAL: " + gl.blokSoal);
+                    // sendLog.Log("SOLUSI: " + gl.solusiSoal);
+                    // sendLog.Log("PREV DIFF: " + gl.prevDifficulty);
+                    // sendLog.Log("PREV PERFORMANCE: " + gl.prevPerformance);
+                    // sendLog.Log("TARGET DIFF: " + gl.targetDifficulty);
+                    // sendLog.Log("CURRENT DIFF: " + gl.difficulty);
+                    // sendLog.Log("isFound: " + gl.isFound);
+                    // sendLog.Log("STATUS: SUCCESS");
+                    // sendLog.Log("TOTAL UNDO: " + restartTimes);
+                    // sendLog.Log("TOTAL RESTART: " + undoTimes);
+                    // sendLog.Log("WAKTU: " + waktuKerja);
+                    // sendLog.Log("WAKTU GENERATE: " + gl.elespasedTime + "\n");
 
                     // untuk versi upload
                     sendLog.AddLogEntry(";MODE; " + "INDEX; " + "SCHEMA; " + "Z1; " + "Z2; " + "Z3; " + "Z4; " + "SOAL; " + "SOLUSI; " + "PREV DIFF; " + "PREV PERFORMANCE; " + "TARGET DIFF; " + "CURRENT DIFF; " + "isFound; " + "STATUS;" + "TOTAL UNDO; " + "TOTAL RESTART; " + "WAKTU; " + "WAKTU GENERATE; ");
