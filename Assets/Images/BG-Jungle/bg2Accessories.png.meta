@@ -1,0 +1,698 @@
+fileFormatVersion: 2
+guid: 2d1d585cc73c338498dc18dc03e4364f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2878553013393259358
+    second: bg2Accessories_0
+  - first:
+      213: 4446419372893987165
+    second: bg2Accessories_1
+  - first:
+      213: -7328005201090936846
+    second: bg2Accessories_2
+  - first:
+      213: 2377648507256482727
+    second: bg2Accessories_3
+  - first:
+      213: -5050196767309327008
+    second: bg2Accessories_4
+  - first:
+      213: 4065378409605515117
+    second: bg2Accessories_5
+  - first:
+      213: 5075197582713405783
+    second: bg2Accessories_6
+  - first:
+      213: -2493630112391615277
+    second: bg2Accessories_7
+  - first:
+      213: 2199120219248119682
+    second: bg2Accessories_8
+  - first:
+      213: -4262677294262109052
+    second: bg2Accessories_9
+  - first:
+      213: -6561562240228932240
+    second: bg2Accessories_10
+  - first:
+      213: 2421900835807080666
+    second: bg2Accessories_11
+  - first:
+      213: 2489863898623147016
+    second: bg2Accessories_12
+  - first:
+      213: -5094629148282651182
+    second: bg2Accessories_13
+  - first:
+      213: -3058809913178526
+    second: bg2Accessories_14
+  - first:
+      213: 2347915331809938061
+    second: bg2Accessories_15
+  - first:
+      213: 6101309586537420421
+    second: bg2Accessories_16
+  - first:
+      213: 484011541452024255
+    second: bg2Accessories_17
+  - first:
+      213: 182101956576542256
+    second: bg2Accessories_18
+  - first:
+      213: -7375358470069213375
+    second: bg2Accessories_19
+  - first:
+      213: -2654068839232964254
+    second: bg2Accessories_20
+  - first:
+      213: -1076186280683883387
+    second: bg2Accessories_21
+  - first:
+      213: 8261663068150292869
+    second: bg2Accessories_22
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bg2Accessories_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2711
+        width: 462
+        height: 1402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b7f66e6bca2f720800000000000000
+      internalID: 2878553013393259358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_1
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 2946
+        width: 611
+        height: 1106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51e2cb8cdad4bd30800000000000000
+      internalID: 4446419372893987165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_2
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 2829
+        width: 815
+        height: 1297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff72c45812bd4a90800000000000000
+      internalID: -7328005201090936846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_3
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 2869
+        width: 795
+        height: 1257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aba2c358ba1ff020800000000000000
+      internalID: 2377648507256482727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_4
+      rect:
+        serializedVersion: 2
+        x: 3839
+        y: 3060
+        width: 416
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06593b61cc81ae9b0800000000000000
+      internalID: -5050196767309327008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_5
+      rect:
+        serializedVersion: 2
+        x: 4632
+        y: 3075
+        width: 611
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67441ecf102b6830800000000000000
+      internalID: 4065378409605515117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_6
+      rect:
+        serializedVersion: 2
+        x: 5519
+        y: 3071
+        width: 259
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751cd8adf49be6640800000000000000
+      internalID: 5075197582713405783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_7
+      rect:
+        serializedVersion: 2
+        x: 6262
+        y: 3011
+        width: 389
+        height: 897
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc2ea5ef98d46dd0800000000000000
+      internalID: -2493630112391615277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_8
+      rect:
+        serializedVersion: 2
+        x: 7017
+        y: 3041
+        width: 711
+        height: 838
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fc9ae1038d48e10800000000000000
+      internalID: 2199120219248119682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1482
+        width: 609
+        height: 1011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c3263e59de7d4c0800000000000000
+      internalID: -4262677294262109052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_10
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1312
+        width: 885
+        height: 1166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075c98b38e5a0f4a0800000000000000
+      internalID: -6561562240228932240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_11
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 2105
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0b0877af15c9120800000000000000
+      internalID: 2421900835807080666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_12
+      rect:
+        serializedVersion: 2
+        x: 3091
+        y: 1663
+        width: 586
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c70802606cd8220800000000000000
+      internalID: 2489863898623147016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_13
+      rect:
+        serializedVersion: 2
+        x: 3896
+        y: 1395
+        width: 547
+        height: 1181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddf24a38cd3c49b0800000000000000
+      internalID: -5094629148282651182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_14
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 1527
+        width: 570
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26680b1570225fff0800000000000000
+      internalID: -3058809913178526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_15
+      rect:
+        serializedVersion: 2
+        x: 5689
+        y: 1328
+        width: 1064
+        height: 1346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a8933fd88759020800000000000000
+      internalID: 2347915331809938061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_16
+      rect:
+        serializedVersion: 2
+        x: 7017
+        y: 1516
+        width: 711
+        height: 796
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5869f3a2eb43ca450800000000000000
+      internalID: 6101309586537420421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 1088
+        height: 909
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9ef6bbeed87b600800000000000000
+      internalID: 484011541452024255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_18
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 0
+        width: 850
+        height: 1134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ef5a2c3c4f68200800000000000000
+      internalID: 182101956576542256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_19
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 0
+        width: 399
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1472b5c3c8675a990800000000000000
+      internalID: -7375358470069213375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_20
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 68
+        width: 1105
+        height: 881
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269f51cd37ada2bd0800000000000000
+      internalID: -2654068839232964254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_21
+      rect:
+        serializedVersion: 2
+        x: 5006
+        y: 146
+        width: 1425
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58430b3974e9011f0800000000000000
+      internalID: -1076186280683883387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg2Accessories_22
+      rect:
+        serializedVersion: 2
+        x: 6666
+        y: 62
+        width: 1062
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581ef0fc9c257a270800000000000000
+      internalID: 8261663068150292869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bg2Accessories_0: 2878553013393259358
+      bg2Accessories_1: 4446419372893987165
+      bg2Accessories_10: -6561562240228932240
+      bg2Accessories_11: 2421900835807080666
+      bg2Accessories_12: 2489863898623147016
+      bg2Accessories_13: -5094629148282651182
+      bg2Accessories_14: -3058809913178526
+      bg2Accessories_15: 2347915331809938061
+      bg2Accessories_16: 6101309586537420421
+      bg2Accessories_17: 484011541452024255
+      bg2Accessories_18: 182101956576542256
+      bg2Accessories_19: -7375358470069213375
+      bg2Accessories_2: -7328005201090936846
+      bg2Accessories_20: -2654068839232964254
+      bg2Accessories_21: -1076186280683883387
+      bg2Accessories_22: 8261663068150292869
+      bg2Accessories_3: 2377648507256482727
+      bg2Accessories_4: -5050196767309327008
+      bg2Accessories_5: 4065378409605515117
+      bg2Accessories_6: 5075197582713405783
+      bg2Accessories_7: -2493630112391615277
+      bg2Accessories_8: 2199120219248119682
+      bg2Accessories_9: -4262677294262109052
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

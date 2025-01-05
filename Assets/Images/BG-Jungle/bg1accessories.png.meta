@@ -1,0 +1,673 @@
+fileFormatVersion: 2
+guid: b9d4ef98b8e02e541a526e4f390be77c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3003141922244052711
+    second: bg1accessories_0
+  - first:
+      213: -702523437169096086
+    second: bg1accessories_1
+  - first:
+      213: -4327260280886812603
+    second: bg1accessories_2
+  - first:
+      213: 3452863751787583901
+    second: bg1accessories_3
+  - first:
+      213: 5115440694972990250
+    second: bg1accessories_4
+  - first:
+      213: -3606354417111783254
+    second: bg1accessories_5
+  - first:
+      213: 282010284354070235
+    second: bg1accessories_6
+  - first:
+      213: 4566831584215330320
+    second: bg1accessories_7
+  - first:
+      213: 8869263594429561897
+    second: bg1accessories_8
+  - first:
+      213: 4468840965674111916
+    second: bg1accessories_9
+  - first:
+      213: 3360390284639903242
+    second: bg1accessories_10
+  - first:
+      213: -6084515477478979172
+    second: bg1accessories_11
+  - first:
+      213: -3897619519060558303
+    second: bg1accessories_12
+  - first:
+      213: 2574950693276944972
+    second: bg1accessories_13
+  - first:
+      213: 5422140168225198135
+    second: bg1accessories_14
+  - first:
+      213: 73923926609665893
+    second: bg1accessories_15
+  - first:
+      213: -7024745692668547529
+    second: bg1accessories_16
+  - first:
+      213: 2172518896237300892
+    second: bg1accessories_17
+  - first:
+      213: -1720792166258591635
+    second: bg1accessories_18
+  - first:
+      213: -4648484817294990837
+    second: bg1accessories_19
+  - first:
+      213: 3985134777316752081
+    second: bg1accessories_20
+  - first:
+      213: 4455531540037297799
+    second: bg1accessories_21
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bg1accessories_0
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 3704
+        width: 1431
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6c07dbaad4da920800000000000000
+      internalID: 3003141922244052711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_1
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 3511
+        width: 1346
+        height: 583
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a4621f7a22046f0800000000000000
+      internalID: -702523437169096086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_2
+      rect:
+        serializedVersion: 2
+        x: 4247
+        y: 3622
+        width: 1831
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540a51b83bb72f3c0800000000000000
+      internalID: -4327260280886812603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_3
+      rect:
+        serializedVersion: 2
+        x: 6597
+        y: 3883
+        width: 104
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d991f17c9490bef20800000000000000
+      internalID: 3452863751787583901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_4
+      rect:
+        serializedVersion: 2
+        x: 6881
+        y: 3876
+        width: 66
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2341759532bdf640800000000000000
+      internalID: 5115440694972990250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_5
+      rect:
+        serializedVersion: 2
+        x: 7186
+        y: 3876
+        width: 82
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa824e1d3c7a3fdc0800000000000000
+      internalID: -3606354417111783254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2359
+        width: 542
+        height: 1092
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd66ee50cd6e9e300800000000000000
+      internalID: 282010284354070235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_7
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 2347
+        width: 693
+        height: 910
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e60363125a06f30800000000000000
+      internalID: 4566831584215330320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_8
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2373
+        width: 1367
+        height: 858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c374d6f34f51b70800000000000000
+      internalID: 8869263594429561897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_9
+      rect:
+        serializedVersion: 2
+        x: 3305
+        y: 2258
+        width: 891
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca318bc6e23840e30800000000000000
+      internalID: 4468840965674111916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_10
+      rect:
+        serializedVersion: 2
+        x: 4643
+        y: 2308
+        width: 402
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e92a6e82182ae20800000000000000
+      internalID: 3360390284639903242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_11
+      rect:
+        serializedVersion: 2
+        x: 5531
+        y: 2437
+        width: 585
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99cf7e09657f8ba0800000000000000
+      internalID: -6084515477478979172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_12
+      rect:
+        serializedVersion: 2
+        x: 6552
+        y: 1305
+        width: 1083
+        height: 2205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e34c8a2bfd8e9c0800000000000000
+      internalID: -3897619519060558303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 923
+        width: 941
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a0bea43001cb320800000000000000
+      internalID: 2574950693276944972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_14
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 953
+        width: 426
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730907951cf4f3b40800000000000000
+      internalID: 5422140168225198135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_15
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 1165
+        width: 517
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f98f96b61a60100800000000000000
+      internalID: 73923926609665893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_16
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 1068
+        width: 448
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e290fd207138e90800000000000000
+      internalID: -7024745692668547529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_17
+      rect:
+        serializedVersion: 2
+        x: 4147
+        y: 1120
+        width: 772
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c4c06fc66562e10800000000000000
+      internalID: 2172518896237300892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_18
+      rect:
+        serializedVersion: 2
+        x: 5564
+        y: 1229
+        width: 611
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68b1e554a48e18e0800000000000000
+      internalID: -1720792166258591635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_19
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 28
+        width: 1871
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02e559ffa34d7fb0800000000000000
+      internalID: -4648484817294990837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_20
+      rect:
+        serializedVersion: 2
+        x: 3443
+        y: 0
+        width: 1929
+        height: 770
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da350047fa0e4730800000000000000
+      internalID: 3985134777316752081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg1accessories_21
+      rect:
+        serializedVersion: 2
+        x: 5855
+        y: 47
+        width: 1663
+        height: 872
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786e879445a35dd30800000000000000
+      internalID: 4455531540037297799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bg1accessories_0: 3003141922244052711
+      bg1accessories_1: -702523437169096086
+      bg1accessories_10: 3360390284639903242
+      bg1accessories_11: -6084515477478979172
+      bg1accessories_12: -3897619519060558303
+      bg1accessories_13: 2574950693276944972
+      bg1accessories_14: 5422140168225198135
+      bg1accessories_15: 73923926609665893
+      bg1accessories_16: -7024745692668547529
+      bg1accessories_17: 2172518896237300892
+      bg1accessories_18: -1720792166258591635
+      bg1accessories_19: -4648484817294990837
+      bg1accessories_2: -4327260280886812603
+      bg1accessories_20: 3985134777316752081
+      bg1accessories_21: 4455531540037297799
+      bg1accessories_3: 3452863751787583901
+      bg1accessories_4: 5115440694972990250
+      bg1accessories_5: -3606354417111783254
+      bg1accessories_6: 282010284354070235
+      bg1accessories_7: 4566831584215330320
+      bg1accessories_8: 8869263594429561897
+      bg1accessories_9: 4468840965674111916
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

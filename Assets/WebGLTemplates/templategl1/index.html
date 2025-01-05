@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Your Game</title>
+    <script type="text/javascript">
+        function DownloadLogFile(logData, playerName) {
+            var blob = new Blob([logData], { type: 'text/plain' });
+            var link = document.createElement('a');
+            link.href = window.URL.createObjectURL(blob);
+            link.download = playerName + '-[bilblok].txt';
+            link.click();
+        }
+    </script>
+</head>
+
+<body>
+    <div id="unityContainer"></div>
+    <script>
+        // Initialize Unity WebGL build (ini akan diisi oleh Unity build)
+    </script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyBw4c9sDT64CC_1NtsWyy4pnxbTk9tuyug",
+            authDomain: "bbloklogdata.firebaseapp.com",
+            projectId: "bbloklogdata",
+            storageBucket: "bbloklogdata.appspot.com",
+            messagingSenderId: "776005247252",
+            appId: "1:776005247252:web:067b3646405290749da201",
+            measurementId: "G-5PX7JJ42YM"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+    <script>
+        function UploadLogToFirebase(fileContent, fileName) {
+            var storageRef = firebase.storage().ref();
+            var logRef = storageRef.child(fileName);
+
+            var blob = new Blob([fileContent], { type: "text/plain" });
+
+            logRef.put(blob).then(function (snapshot) {
+                console.log('Uploaded log file to Firebase:', snapshot);
+            }).catch(function (error) {
+                console.error('Error uploading file:', error);
+            });
+        }
+    </script>
+</body>
+
+</html>
