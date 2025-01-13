@@ -1,1 +1,1 @@
-game b-blok dengan fitur performance metric versi webgl build
+game b-blok dengan fitur performance metric versi webgl
