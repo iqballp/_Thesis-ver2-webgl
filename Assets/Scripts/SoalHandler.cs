@@ -852,10 +852,10 @@ public class SoalHandler : MonoBehaviour
 
 
         //TODO: log ini bukan best candidate
-        //gl.z1 = (getCombination(jumBalok) / 10);
-        //gl.z2 = ((totalSum) / 45f);
-        //gl.z3 = (1 - ((maxi - mini) / 9f));
-        //gl.z4 = ((float)jumOperand / (float)jumBalok);
+        gl.z1 = (getCombination(jumBalok) / 10);
+        gl.z2 = ((totalSum) / 45f);
+        gl.z3 = (1 - ((maxi - mini) / 9f));
+        gl.z4 = ((float)jumOperand / (float)jumBalok);
         gl.currentSum = totalSum;
         gl.difficulty = curDifficulty; // LOG
 

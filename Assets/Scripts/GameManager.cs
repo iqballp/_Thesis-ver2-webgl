@@ -63,7 +63,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        timerv.StartTimer();
+        
         sl = GameObject.Find("ScoreLoger").GetComponent<ScoreLoger>();
         isTambahPoin = true;
         // levelText.text = "Level " + gl.indexSoal.ToString();
@@ -71,7 +71,10 @@ public class GameManager : MonoBehaviour
         /* membuat timer tiap level dengan delay -3 detik untuk pergantian animasi level
         timer = -3; */
 
-        startTime = Time.time;
+        // startTime = Time.time;
+        // sl.timer_maju = sl.timer_maju -1;
+        startTime = sl.timer_maju;
+        timerv.StartTimer();
         gl = GameObject.Find("GameLoger").GetComponent<GameLoger>();
         sendLog = GameObject.Find("Debuger").GetComponent<DebugManager>();
         prevDiffText.transform.GetChild(0).gameObject.GetComponent<Text>().text = gl.prevDifficulty.ToString();
@@ -275,6 +278,7 @@ public class GameManager : MonoBehaviour
 
         if (restartTimes > sh.lifeCount)
         {
+            timerv.StopTimer();
             restartBtn.gameObject.SetActive(false);
             sl.hitungRataKesulitanSalah = sl.hitungRataKesulitanSalah + gl.difficulty;
             // sl.durasiBermain = sl.durasiBermain + (Time.time - startTime);
@@ -324,6 +328,7 @@ public class GameManager : MonoBehaviour
 
     public void skipSoal()
     {
+        timerv.StopTimer();
         // untuk versi download
         sendLog.AddLogDownloadEntry("MODE: UJIAN");
         sendLog.AddLogDownloadEntry("INDEX: " + gl.indexSoal);
@@ -345,25 +350,25 @@ public class GameManager : MonoBehaviour
         sendLog.AddLogDownloadEntry("WAKTU: " + waktuKerja);
         sendLog.AddLogDownloadEntry("WAKTU GENERATE: " + gl.elespasedTime + "\n");
 
-        // sendLog.Log("MODE: UJIAN");
-        // sendLog.Log("INDEX: " + gl.indexSoal);
-        // sendLog.Log("SCHEMA: " + gl.schema);
-        // sendLog.Log("Z1: " + gl.z1);
-        // sendLog.Log("Z2: " + gl.z2);
-        // sendLog.Log("Z3: " + gl.z3);
-        // sendLog.Log("Z4: " + gl.z4);
-        // sendLog.Log("SOAL: " + gl.blokSoal);
-        // sendLog.Log("SOLUSI: " + gl.solusiSoal);
-        // sendLog.Log("PREV DIFF: " + gl.prevDifficulty);
-        // sendLog.Log("PREV PERFORMANCE: " + gl.prevPerformance);
-        // sendLog.Log("TARGET DIFF: " + gl.targetDifficulty);
-        // sendLog.Log("CURRENT DIFF: " + gl.difficulty);
-        // sendLog.Log("isFound: " + gl.isFound);
-        // sendLog.Log("STATUS: SKIPPED");
-        // sendLog.Log("TOTAL UNDO: "+restartTimes);
-        // sendLog.Log("TOTAL RESTART: "+undoTimes);
-        // sendLog.Log("WAKTU: " + waktuKerja);
-        // sendLog.Log("WAKTU GENERATE: " + gl.elespasedTime + "\n");
+        sendLog.Log("MODE: UJIAN");
+        sendLog.Log("INDEX: " + gl.indexSoal);
+        sendLog.Log("SCHEMA: " + gl.schema);
+        sendLog.Log("Z1: " + gl.z1);
+        sendLog.Log("Z2: " + gl.z2);
+        sendLog.Log("Z3: " + gl.z3);
+        sendLog.Log("Z4: " + gl.z4);
+        sendLog.Log("SOAL: " + gl.blokSoal);
+        sendLog.Log("SOLUSI: " + gl.solusiSoal);
+        sendLog.Log("PREV DIFF: " + gl.prevDifficulty);
+        sendLog.Log("PREV PERFORMANCE: " + gl.prevPerformance);
+        sendLog.Log("TARGET DIFF: " + gl.targetDifficulty);
+        sendLog.Log("CURRENT DIFF: " + gl.difficulty);
+        sendLog.Log("isFound: " + gl.isFound);
+        sendLog.Log("STATUS: SKIPPED");
+        sendLog.Log("TOTAL UNDO: "+restartTimes);
+        sendLog.Log("TOTAL RESTART: "+undoTimes);
+        sendLog.Log("WAKTU: " + waktuKerja);
+        sendLog.Log("WAKTU GENERATE: " + gl.elespasedTime + "\n");
 
         // untuk versi upload
         sendLog.AddLogEntry(";MODE; " + "INDEX; " + "SCHEMA; " + "Z1; " + "Z2; " + "Z3; " + "Z4; " + "SOAL; " + "SOLUSI; " + "PREV DIFF; " + "PREV PERFORMANCE; " + "TARGET DIFF; " + "CURRENT DIFF; " + "isFound; " + "STATUS;" + "TOTAL UNDO; " + "TOTAL RESTART; " + "WAKTU; " + "WAKTU GENERATE; ");
@@ -392,7 +397,9 @@ public class GameManager : MonoBehaviour
 
         tirai.SetTrigger("close");
         //skipPromt.SetTrigger("close");
+        timerv.StopTimer();
         StartCoroutine(nextScene(nextSceneTarget, 1f));
+        // sl.timer_maju = sl.timer_maju - 1f;
     }
 
     private void HidePeringatanText()
@@ -402,7 +409,7 @@ public class GameManager : MonoBehaviour
 
     public void keluarGame()
     {
-        if (sl.jumlahKerjakanSoal < 3)
+        if (sl.jumlahKerjakanSoal < 1)
         {
             peringatanText.gameObject.SetActive(true);
 
@@ -456,9 +463,11 @@ public class GameManager : MonoBehaviour
         int currentLife = sh.lifeCount - restartTimes;
 
         //timer berjalan
-        // if(sedangPause.activeInHierarchy == false){
-        //     timer += Time.deltaTime;
-        // }
+        if(sedangPause.gameObject.activeSelf){
+            timerv.StopTimer();
+        }else{
+            timerv.StartTimer();
+        }
 
 
         if (totalbenar == listTarget.Count)
@@ -471,7 +480,7 @@ public class GameManager : MonoBehaviour
 
         if (isComplete)
         {
-
+            timerv.StopTimer();
             // play conffeti
             confetti.SetActive(true);
             if (!conffectiplayed)
@@ -499,25 +508,25 @@ public class GameManager : MonoBehaviour
                     sendLog.AddLogDownloadEntry("WAKTU: " + waktuKerja);
                     sendLog.AddLogDownloadEntry("WAKTU GENERATE: " + gl.elespasedTime + "\n");
 
-                    // sendLog.Log("MODE: UJIAN");
-                    // sendLog.Log("INDEX: " + gl.indexSoal);
-                    // sendLog.Log("SCHEMA: " + gl.schema);
-                    // sendLog.Log("Z1: " + gl.z1);
-                    // sendLog.Log("Z2: " + gl.z2);
-                    // sendLog.Log("Z3: " + gl.z3);
-                    // sendLog.Log("Z4: " + gl.z4);
-                    // sendLog.Log("SOAL: " + gl.blokSoal);
-                    // sendLog.Log("SOLUSI: " + gl.solusiSoal);
-                    // sendLog.Log("PREV DIFF: " + gl.prevDifficulty);
-                    // sendLog.Log("PREV PERFORMANCE: " + gl.prevPerformance);
-                    // sendLog.Log("TARGET DIFF: " + gl.targetDifficulty);
-                    // sendLog.Log("CURRENT DIFF: " + gl.difficulty);
-                    // sendLog.Log("isFound: " + gl.isFound);
-                    // sendLog.Log("STATUS: SUCCESS");
-                    // sendLog.Log("TOTAL UNDO: " + restartTimes);
-                    // sendLog.Log("TOTAL RESTART: " + undoTimes);
-                    // sendLog.Log("WAKTU: " + waktuKerja);
-                    // sendLog.Log("WAKTU GENERATE: " + gl.elespasedTime + "\n");
+                    sendLog.Log("MODE: UJIAN");
+                    sendLog.Log("INDEX: " + gl.indexSoal);
+                    sendLog.Log("SCHEMA: " + gl.schema);
+                    sendLog.Log("Z1: " + gl.z1);
+                    sendLog.Log("Z2: " + gl.z2);
+                    sendLog.Log("Z3: " + gl.z3);
+                    sendLog.Log("Z4: " + gl.z4);
+                    sendLog.Log("SOAL: " + gl.blokSoal);
+                    sendLog.Log("SOLUSI: " + gl.solusiSoal);
+                    sendLog.Log("PREV DIFF: " + gl.prevDifficulty);
+                    sendLog.Log("PREV PERFORMANCE: " + gl.prevPerformance);
+                    sendLog.Log("TARGET DIFF: " + gl.targetDifficulty);
+                    sendLog.Log("CURRENT DIFF: " + gl.difficulty);
+                    sendLog.Log("isFound: " + gl.isFound);
+                    sendLog.Log("STATUS: SUCCESS");
+                    sendLog.Log("TOTAL UNDO: " + restartTimes);
+                    sendLog.Log("TOTAL RESTART: " + undoTimes);
+                    sendLog.Log("WAKTU: " + waktuKerja);
+                    sendLog.Log("WAKTU GENERATE: " + gl.elespasedTime + "\n");
 
                     // untuk versi upload
                     sendLog.AddLogEntry(";MODE; " + "INDEX; " + "SCHEMA; " + "Z1; " + "Z2; " + "Z3; " + "Z4; " + "SOAL; " + "SOLUSI; " + "PREV DIFF; " + "PREV PERFORMANCE; " + "TARGET DIFF; " + "CURRENT DIFF; " + "isFound; " + "STATUS;" + "TOTAL UNDO; " + "TOTAL RESTART; " + "WAKTU; " + "WAKTU GENERATE; ");
@@ -553,15 +562,19 @@ public class GameManager : MonoBehaviour
 
             tirai.SetTrigger("close");
             StartCoroutine(nextScene(nextSceneTarget, 4f));
+            // sl.timer_maju = sl.timer_maju - 1f;
         }
         else
         {
-            float t = Time.time - startTime;
+            // float t = Time.time - startTime;
+            float t = sl.timer_maju - startTime;
             waktuKerja = t.ToString("f1");
+            
         }
 
         if (isTambahPoin && isComplete)
         {
+            timerv.StopTimer();
             // sl.durasiBermain = sl.durasiBermain + (Time.time - startTime);
             sl.jumlahKerjakanSoalBenar = sl.jumlahKerjakanSoalBenar + 1;
             sl.jumlahKerjakanSoal = sl.jumlahKerjakanSoal + 1;
