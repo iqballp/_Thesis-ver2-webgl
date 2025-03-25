@@ -65,6 +65,7 @@ public class SoalHandler : MonoBehaviour
 
         if(gl.indexSoal == 1)
         {
+            // mengatur target dif soal ke -1 mode ujian;
             gl.targetDifficulty = 0.5f;
         }
 

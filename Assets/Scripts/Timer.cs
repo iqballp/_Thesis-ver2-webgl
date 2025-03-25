@@ -7,7 +7,7 @@ public class Timer : MonoBehaviour
 {
     public ScoreLoger sl;
     public Text timerText; // Referensi ke UI Text untuk menampilkan waktu
-    private float elapsedTime = 0f; // Waktu yang sudah berlalu
+    // private float elapsedTime = 0f; // Waktu yang sudah berlalu
     private bool isRunning = false; // Status timer
     // Start is called before the first frame update
     void Start()

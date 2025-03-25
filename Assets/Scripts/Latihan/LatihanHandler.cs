@@ -59,6 +59,12 @@ public class LatihanHandler : MonoBehaviour
         gl = GameObject.Find("GameLoger").GetComponent<GameLoger>();
         gl.indexSoal = gl.indexSoal + 1; // init index soal
 
+        //mengatur target diff soal ke- 1
+        if(gl.indexSoal == 1)
+        {
+            gl.targetDifficulty = 0.1f;
+        }
+
         //jumlahBlok = jumlahTambah + jumlahKurang + jumlahKali + jumlahBagi;
 
         gen = this.gameObject.GetComponent<LatihanGenerator>();
@@ -809,7 +815,7 @@ public class LatihanHandler : MonoBehaviour
         //gl.z3 = z3;
         //gl.z4 = z4;
         //gl.currentSum = totalSum;
-        //gl.difficulty = curDifficulty; // LOG
+        gl.difficulty = curDifficulty; // LOG
 
 
         Difficulty thisDif = newDifficulty(pz1, pz2, pz3, pz4, pDiff, wDiff);
